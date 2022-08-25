@@ -1,0 +1,179 @@
+/* ======================== */
+/* =    General Styles    = */
+/* ======================== */
+body {
+
+    font-family: arial, sans-serif;
+    text-align: center;
+}
+
+/* Navigation */
+.nav-item {
+  font-size: 14px;
+  color: #000;
+}
+
+.brand-icon {
+    color:rgb(17, 156, 238);
+    font-size: 28px;
+    margin-left: 5px;
+}
+
+/* ======================== */
+/* =  Search Page Styles  = */
+/* ======================== */
+
+/* Search section */
+.logo-bar {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin: 120px 0 5px 0;
+}
+.search-logo{
+    position:relative;
+    height: 92px;
+}
+  .search-form {
+    width: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    height:92px;
+    padding: 10px 0 10px 0;
+    width: 100%;
+    opacity: 70%;
+}
+
+.input-text-field {
+    width: 90%;    
+}
+
+.input-group-text{
+    background-color: transparent;
+    text-align: center;
+    }
+
+.input-group {
+    border:1px solid rgb(226, 223, 223);
+    border-radius: 20px;
+    padding: 0 10px;
+    height: 40px;
+    width:500px;        
+}
+
+.no-border{
+    border: none;
+}
+
+.input-text-field:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: red;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.buttons-bar {
+    text-align: center;
+}
+
+.btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+.btn:hover {
+    border: 1px solid #dbd9d9;
+    background-color: #f8f9fa;
+}
+
+.no-border:focus {
+    border: none;
+}
+/* =============================== */
+/* =  Images Search Page Styles  = */
+/* =============================== */
+.images-text {
+    color:#4285f4;
+    font:18px arial, sans-serif;
+    position:absolute;
+    left:215px;
+    top: 80px;
+    white-space:nowrap
+}
+
+/* ================================= */
+/* =  Advanced Search Page Styles  = */
+/* ================================= */
+.wrapper {
+    text-align: left;
+    margin: 0 50px 0 0;
+    position: relative;
+}
+.nav-brand-logo {
+    display: inline-block;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.app-bar {
+    color: #d93025;
+    font-size: 18px;
+    margin: 25px 35px;
+    padding-left: 25px;
+}
+
+.rooler {
+    border-bottom: 1px solid #ebebeb;
+
+}
+
+.advanced-search-form {
+    margin: 40px 24px 0 45px;
+}
+
+.left-col {
+    height: 40px;
+    width: 150px;
+}
+
+.buttons-bar-advanced {
+    text-align: right;
+}
+
+.advanced-button {
+    background: #4d90fe;
+    background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+    background-image: -moz-linear-gradient(top, #4d90fe, #4787ed);
+    background-image: -ms-linear-gradient(top, #4d90fe, #4787ed);
+    background-image: -o-linear-gradient(top, #4d90fe, #4787ed);
+    background-image: linear-gradient(to bottom, #4d90fe, #4787ed);
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 11px;
+    background: #4d90fe;
+    padding: 5px 12px;
+    border: solid #3079ed 1px;
+    text-decoration: none;
+  }
+  
+  .advanced-button:hover {
+    background: #4787ed;
+    text-decoration: none;
+  }

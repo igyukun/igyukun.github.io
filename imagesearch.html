@@ -18,7 +18,7 @@
                     <div class="collapse navbar-collapse" id="navbarLinks">
                         <ul class="navbar-nav ms-auto">
                           <li class="nav-item">
-                            <a class="nav-link" href="imagesearch.html">Image Search</a>
+                            <a class="nav-link" href="index.html">Google Search</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="advancedsearch.html">Advanced Search</a>
@@ -27,7 +27,7 @@
                         <div class="navbar-brand">
                             <span class="brand-icon"><i class="fa-solid fa-magnifying-glass-arrow-right"></i></span>
                         </div>
-                      </div>
+                    </div>
                 </nav>  
             </div>
             
@@ -38,17 +38,17 @@
             <div class="logo-bar">
                 <div class="search-logo">
                     <img class="logo" src="logo.png" alt="Search logo">
+                    <span class="images-text">images</span>
                 </div>
             </div>
             <div class="search-form d-flex justify-content-center">
-                <form action="https://www.google.com/search">
+                <form method="get" action="http://images.google.com/images">
                     <div class="input-group mb-3">
                         <span class="input-group-text no-border" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-                        <input type="text" class="form-control no-border input-text-field" name="q" autofocus>
+                        <input type="text" class="form-control no-border input-text-field" aria-describedby="basic-addon1" name="q" autofocus>
                     </div>
                     <div class="buttons-bar">
-                        <input type="submit" name="btnSearch" value="Google Search" class="btn btn-light rounded-1 button-main">
-                        <input type="submit" name="btnI" value="I'm Feeling Lucky" class="btn btn-light rounded-1 button-main">
+                        <input type="submit" name="btnSearch" value="Image Search" class="btn btn-light button-main">
                         </div>
                     </div>    
                 </form>
